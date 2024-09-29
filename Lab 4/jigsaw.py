@@ -182,7 +182,7 @@ def optimize_grid(init_grid, patch_set, init_value):
     return best_grid, best_score
 
 if __name__ == "__main__":
-    matrix_data = read_matrix_from_file("scrambled.mat")
+    matrix_data = read_matrix_from_file("./Lab 4/scrambled.mat")
     matrix_data = matrix_data.T
 
     patch_data, initial_grid = generate_patches(matrix_data)
